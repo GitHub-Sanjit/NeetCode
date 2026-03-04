@@ -27,7 +27,3 @@ SELECT h.name as human_name, p.name as pet_name
 FROM humans h
 LEFT JOIN pets p ON h.id = p.owner_id
 ORDER BY human_name, pet_name;
-
-
-
-
